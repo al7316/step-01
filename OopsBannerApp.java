@@ -8,25 +8,25 @@ public class OopsBannerApp {
 
     static {
         BANNER_PATTERNS.put('O', new String[]{
-            "  *** ",
-            " * * ",
-            " * * ",
-            " * * ",
-            "  *** "
+            "  ***  ",
+            " *   * ",
+            " *   * ",
+            " *   * ",
+            "  ***  "
         });
         BANNER_PATTERNS.put('P', new String[]{
-            " **** ",
-            " * * ",
-            " **** ",
-            " * ",
-            " * "
+            " ****  ",
+            " *   * ",
+            " ****  ",
+            " *     ",
+            " *     "
         });
         BANNER_PATTERNS.put('S', new String[]{
             "  **** ",
-            " * ",
-            "  *** ",
+            " *     ",
+            "  ***  ",
             "     * ",
-            " **** "
+            " ****  "
         });
     }
 
